@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/workstation/node_modules
+/workstation/.pnp
+/workstation/.pnp.js
+
+# testing
+/workstation/coverage
+
+# production
+/workstation/build
+
+# misc
+/workstation/.DS_Store
+/workstation/.env.local
+/workstation/.env.development.local
+/workstation/.env.test.local
+/workstation/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
